@@ -6,7 +6,9 @@
   <properties/>
   <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@2.84">
     <script>hello world
-this is the second dsil pipeline</script>
+this is the second dsil pipeline
+making changes to this script
+addmijng more lines</script>
     <sandbox>true</sandbox>
   </definition>
   <triggers/>

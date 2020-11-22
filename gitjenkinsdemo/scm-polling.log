@@ -1,4 +1,4 @@
-Started on 22-Nov-2020 2:14:00 PM
+Started on 22-Nov-2020 2:21:00 PM
 Using strategy: Default
 [poll] Last Built Revision: Revision 939c2f27b0be5baca63f319c4a5cf2e3d48f23c7 (refs/remotes/origin/master)
 The recommended git tool is: NONE
@@ -8,5 +8,5 @@ No credentials specified
  > git ls-remote -h -- https://github.com/oza-aakash/gitjenkinstest.git # timeout=10
 Found 2 remote heads on https://github.com/oza-aakash/gitjenkinstest.git
 [poll] Latest remote head revision on refs/heads/master is: 939c2f27b0be5baca63f319c4a5cf2e3d48f23c7 - already built by 4
-Done. Took 0.39 sec
+Done. Took 0.36 sec
 No changes
