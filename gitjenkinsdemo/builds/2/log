@@ -1,0 +1,22 @@
+Started by user [8mha:////4Hg49BR49Ebxstlk9aKkKjWXhvpChfcDZu6NeRcwQQVGAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzmEgYu/dLi1CL9/KrERAC22GH8vwAAAA==[0moza
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/gitjenkinsdemo
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/oza-aakash/gitjenkinstest.git # timeout=10
+Fetching upstream changes from https://github.com/oza-aakash/gitjenkinstest.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/oza-aakash/gitjenkinstest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ec0bc61bbeec91cdbc868c7a80e93c35258fb54a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec0bc61bbeec91cdbc868c7a80e93c35258fb54a # timeout=10
+Commit message: "added file from ubuntu"
+ > git rev-list --no-walk ec0bc61bbeec91cdbc868c7a80e93c35258fb54a # timeout=10
+[gitjenkinsdemo] $ /bin/sh -xe /tmp/jenkins44767778107396233.sh
++ cat test.sh
+hello world
+Finished: SUCCESS

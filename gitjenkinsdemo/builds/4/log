@@ -1,0 +1,24 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/gitjenkinsdemo
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/oza-aakash/gitjenkinstest.git # timeout=10
+Fetching upstream changes from https://github.com/oza-aakash/gitjenkinstest.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/oza-aakash/gitjenkinstest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 939c2f27b0be5baca63f319c4a5cf2e3d48f23c7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 939c2f27b0be5baca63f319c4a5cf2e3d48f23c7 # timeout=10
+Commit message: "add more line"
+ > git rev-list --no-walk c7c301f10675c1835554751f50e44a803705511f # timeout=10
+[gitjenkinsdemo] $ /bin/sh -xe /tmp/jenkins7829537629940766580.sh
++ cat test.sh
+how are you
+hello worl
+this is the more edit filed
+Finished: SUCCESS

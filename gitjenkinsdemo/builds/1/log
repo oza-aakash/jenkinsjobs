@@ -1,0 +1,22 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/gitjenkinsdemo
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/oza-aakash/gitjenkinstest.git
+ > git init /var/lib/jenkins/workspace/gitjenkinsdemo # timeout=10
+Fetching upstream changes from https://github.com/oza-aakash/gitjenkinstest.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/oza-aakash/gitjenkinstest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/oza-aakash/gitjenkinstest.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision ec0bc61bbeec91cdbc868c7a80e93c35258fb54a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ec0bc61bbeec91cdbc868c7a80e93c35258fb54a # timeout=10
+Commit message: "added file from ubuntu"
+First time build. Skipping changelog.
+Finished: SUCCESS
