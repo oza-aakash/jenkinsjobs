@@ -1,0 +1,10 @@
+commit 3c30579bc52166363e3dec3cf66cc6eb6bd53b22
+tree 8071c011f740ddfab35a45514b15895b8849bc43
+parent a9fb9daa7b2e2a33facfd05c69e605c7baad01e7
+author oza-aakash <oza.aakash@gmail.com> 2020-11-22 14:31:08 -0500
+committer oza-aakash <oza.aakash@gmail.com> 2020-11-22 14:31:08 -0500
+
+    removing all line except 1
+
+
+:100644 100644 68bdb00afb8b97b668adc757e7866fd444dba506 ef2924043307aa2f674f24cb8db531977c38fe9c M	test.sh

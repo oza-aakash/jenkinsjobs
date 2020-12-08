@@ -1,0 +1,26 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/gitjenkinsdemo
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/oza-aakash/gitjenkinstest.git # timeout=10
+Fetching upstream changes from https://github.com/oza-aakash/gitjenkinstest.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/oza-aakash/gitjenkinstest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision a9fb9daa7b2e2a33facfd05c69e605c7baad01e7 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a9fb9daa7b2e2a33facfd05c69e605c7baad01e7 # timeout=10
+Commit message: "running jenkins job uatomatically"
+ > git rev-list --no-walk 9e64a583a410e3d2d13f9de92a9ae4ff11e42bfd # timeout=10
+[gitjenkinsdemo] $ /bin/sh -xe /tmp/jenkins5659595918242065383.sh
++ cat test.sh
+how are you
+hello worl
+
+addming more line so that it can triiger the jenkins job
+this is the more edit filed
+Finished: SUCCESS

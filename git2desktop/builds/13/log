@@ -1,0 +1,49 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/git2desktop
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/oza-aakash/gittodesktop.git # timeout=10
+Fetching upstream changes from https://github.com/oza-aakash/gittodesktop.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/oza-aakash/gittodesktop.git +refs/heads/*:refs/remotes/origin/* # timeout=30
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 652a0acae42dfa8bdf96b33f6878f38b39f7ffac (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 652a0acae42dfa8bdf96b33f6878f38b39f7ffac # timeout=10
+Commit message: "Create git2destop4"
+First time build. Skipping changelog.
+[git2desktop] $ /bin/sh -xe /tmp/jenkins7178018545609111245.sh
++ cd /var/lib/jenkins/workspace/git2desktop
++ pwd
+/var/lib/jenkins/workspace/git2desktop
++ ls -l
+total 20
+-rw-r--r-- 1 jenkins jenkins 62 Dec  8 17:03 git2destop3
+-rw-r--r-- 1 jenkins jenkins 89 Dec  8 17:03 git2destop4
+-rw-r--r-- 1 jenkins jenkins 65 Dec  8 17:03 README.md
+-rw-r--r-- 1 jenkins jenkins 27 Dec  8 17:03 testcase1
+-rw-r--r-- 1 jenkins jenkins 20 Dec  8 17:03 testcase2
++ chmod 777 README.md git2destop3 git2destop4 testcase1 testcase2
++ ls -l
+total 20
+-rwxrwxrwx 1 jenkins jenkins 62 Dec  8 17:03 git2destop3
+-rwxrwxrwx 1 jenkins jenkins 89 Dec  8 17:03 git2destop4
+-rwxrwxrwx 1 jenkins jenkins 65 Dec  8 17:03 README.md
+-rwxrwxrwx 1 jenkins jenkins 27 Dec  8 17:03 testcase1
+-rwxrwxrwx 1 jenkins jenkins 20 Dec  8 17:03 testcase2
++ whoami
+jenkins
++ cp -pr README.md git2destop3 git2destop4 testcase1 testcase2 /home/oza/Desktop/git2desktop
++ cd /home/oza/Desktop/git2desktop
++ ls -l
+total 20
+-rwxrwxrwx 1 jenkins jenkins 62 Dec  8 17:03 git2destop3
+-rwxrwxrwx 1 jenkins jenkins 89 Dec  8 17:03 git2destop4
+-rwxrwxrwx 1 jenkins jenkins 65 Dec  8 17:03 README.md
+-rwxrwxrwx 1 jenkins jenkins 27 Dec  8 17:03 testcase1
+-rwxrwxrwx 1 jenkins jenkins 20 Dec  8 17:03 testcase2
+Finished: SUCCESS

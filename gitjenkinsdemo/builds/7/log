@@ -1,0 +1,22 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/gitjenkinsdemo
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/oza-aakash/gitjenkinstest.git # timeout=10
+Fetching upstream changes from https://github.com/oza-aakash/gitjenkinstest.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/oza-aakash/gitjenkinstest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 3c30579bc52166363e3dec3cf66cc6eb6bd53b22 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3c30579bc52166363e3dec3cf66cc6eb6bd53b22 # timeout=10
+Commit message: "removing all line except 1"
+ > git rev-list --no-walk a9fb9daa7b2e2a33facfd05c69e605c7baad01e7 # timeout=10
+[gitjenkinsdemo] $ /bin/sh -xe /tmp/jenkins7222987388847652054.sh
++ cat test.sh
+now onlt this statment should be printed`
+Finished: SUCCESS

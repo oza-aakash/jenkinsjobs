@@ -1,0 +1,12 @@
+Started on 8-Dec-2020 5:20:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 652a0acae42dfa8bdf96b33f6878f38b39f7ffac (refs/remotes/origin/main)
+The recommended git tool is: NONE
+No credentials specified
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git ls-remote -h -- https://github.com/oza-aakash/gittodesktop.git # timeout=10
+Found 1 remote heads on https://github.com/oza-aakash/gittodesktop.git
+[poll] Latest remote head revision on refs/heads/main is: 652a0acae42dfa8bdf96b33f6878f38b39f7ffac - already built by 13
+Done. Took 0.47 sec
+No changes
